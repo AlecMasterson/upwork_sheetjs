@@ -1,0 +1,31 @@
+- There should be 1 invoice for each account. For example, there there are 7 accounts in the example object. Thus, 7 invoices. 
+- Each invoice should have 2 tabs, invoice and returns_and_other
+
+
+- returns_and_other 
+    - has 3 columns
+        1. Batch Number
+        2. Description
+        3. Amount - Formatted as Currency/Accounting 
+    - These columns should be empty, and will be manually filled at a later date.
+    - Named Ranges should be created out of Batch Number and Amount. They will be used in a sumifs formula later.
+
+- invoice
+    - Each invoice should include all batch numbers for that account. Each batch number goes on its own row.
+    - Columns A-E, as well as the file name will come from the input data structure.
+    - The information resulting in column F won't be available until after the invoice is generated. It will be manually entered on the returns_and_other tab
+    - Column G should be a sum of columns D, E, F 
+    - H is column G * 1.03 
+    - Column I is todays date. This date should NOT change if the invoice is opened on a future date however.
+    - Column J is the date in column I + 7. This should be a formula. 
+    - Columns K and L come from the input data structure. 
+
+
+Other Notes
+    - File name should be account-name_invoice_MM-DD-YYYY
+    - File should be saved to reports/MM-DD-YYYY/invoices
+    - Formatting should match the example. Column Widths, Bolds, Fonts, etc. 
+        - Column widths should auto adjust for content
+        - The formulas should be preserved
+        - headers should be bold
+        - the totals at the bottom should be bold

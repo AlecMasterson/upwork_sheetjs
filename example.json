@@ -1,0 +1,148 @@
+{
+  "8658": [
+    {
+      "Account": "Snow",
+      "Invoice Number": "334544",
+      "Batch Number": "334544",
+      "Account Number": "8658",
+      "Computed Invoice Amount": 17620.47999999992,
+      "Weight Charge": 29287.569999999927,
+      "D&T": 2977.6899999999987,
+      "Total": 32265.25999999974,
+      "Pickup Dates": "08-03-2021, 08-04-2021, 08-05-2021, 08-07-2021",
+      "AWBs": "7100986, 7102576, 7103504, 7105025"
+    }
+  ],
+  "9046": [
+    {
+      "Account": "Fyne",
+      "Invoice Number": "334639",
+      "Batch Number": "334639",
+      "Account Number": "9046",
+      "Computed Invoice Amount": 719.9700000000006,
+      "Weight Charge": 1296.4699999999998,
+      "D&T": 0,
+      "Total": 1296.4699999999998,
+      "Pickup Dates": "08-04-2021, 08-04-2021",
+      "AWBs": "7102930, 7104212"
+    }
+  ],
+  "9271": [
+    {
+      "Account": "Drums",
+      "Invoice Number": "332852",
+      "Batch Number": "332852",
+      "Account Number": "9271",
+      "Computed Invoice Amount": 2596.059999999999,
+      "Weight Charge": 4677.3499999999985,
+      "D&T": 457.18999999999977,
+      "Total": 5134.540000000002,
+      "Pickup Dates": "07-20-2021, 07-22-2021, 07-22-2021, 07-23-2021, 07-26-2021",
+      "AWBs": "7099070, 7099512, 7099954, 7100413, 7100843"
+    },
+    {
+      "Account": "Drums",
+      "Invoice Number": "334365",
+      "Batch Number": "334365",
+      "Account Number": "9271",
+      "Computed Invoice Amount": 2626.2499999999986,
+      "Weight Charge": 4492.470000000001,
+      "D&T": 581.4899999999999,
+      "Total": 5073.959999999996,
+      "Pickup Dates": "07-28-2021, 07-29-2021, 07-30-2021, 08-04-2021",
+      "AWBs": "7101389, 7102304, 7102800, 7103260"
+    },
+    {
+      "Account": "Drums",
+      "Invoice Number": "335053",
+      "Batch Number": "335053",
+      "Account Number": "9271",
+      "Computed Invoice Amount": 369.40000000000003,
+      "Weight Charge": 669.18,
+      "D&T": 60.71999999999999,
+      "Total": 729.9,
+      "Pickup Dates": "08-10-2021",
+      "AWBs": "7101800"
+    }
+  ],
+  "9279": [
+    {
+      "Account": "Piano",
+      "Invoice Number": "334238",
+      "Batch Number": "334238",
+      "Account Number": "9279",
+      "Computed Invoice Amount": 268.39,
+      "Weight Charge": 501.79999999999995,
+      "D&T": 32.1,
+      "Total": 533.9,
+      "Pickup Dates": "07-29-2021, 07-29-2021, 07-30-2021",
+      "AWBs": "7101391, 7102306, 7102802"
+    }
+  ],
+  "9457": [
+    {
+      "Account": "GG",
+      "Invoice Number": "333731",
+      "Batch Number": "333731",
+      "Account Number": "9457",
+      "Computed Invoice Amount": 2235.6299999999956,
+      "Weight Charge": 3578.179999999995,
+      "D&T": 0,
+      "Total": 3578.179999999995,
+      "Pickup Dates": "07-23-2021, 07-21-2021",
+      "AWBs": "7099260, 7099714"
+    },
+    {
+      "Account": "GG",
+      "Invoice Number": "334292",
+      "Batch Number": "334292",
+      "Account Number": "9457",
+      "Computed Invoice Amount": 2432.829999999993,
+      "Weight Charge": 3893.4899999999966,
+      "D&T": 0,
+      "Total": 3893.4899999999966,
+      "Pickup Dates": "08-03-2021",
+      "AWBs": "7102606"
+    }
+  ],
+  "9529": [
+    {
+      "Account": "Basics",
+      "Invoice Number": "333734",
+      "Batch Number": "333734",
+      "Account Number": "9529",
+      "Computed Invoice Amount": 1814.33,
+      "Weight Charge": 2449.9900000000007,
+      "D&T": 0,
+      "Total": 2449.9900000000007,
+      "Pickup Dates": "07-22-2021, 07-22-2021, 07-22-2021, 07-26-2021, 07-29-2021",
+      "AWBs": "7099797, 7099801, 7100149, 7101202, 7101204"
+    },
+    {
+      "Account": "Basics",
+      "Invoice Number": "334469",
+      "Batch Number": "334469",
+      "Account Number": "9529",
+      "Computed Invoice Amount": 1108.5500000000002,
+      "Weight Charge": 1496.9399999999998,
+      "D&T": 0,
+      "Total": 1496.9399999999998,
+      "Pickup Dates": "08-04-2021, 07-29-2021, 08-04-2021, 08-04-2021",
+      "AWBs": "7102202, 7102203, 7103733, 7103734"
+    }
+  ],
+  "9601": [
+    {
+      "Account": "Health",
+      "Invoice Number": "334338",
+      "Batch Number": "334338",
+      "Account Number": "9601",
+      "Computed Invoice Amount": 68.72,
+      "Weight Charge": 137.45000000000002,
+      "D&T": 0,
+      "Total": 137.45000000000002,
+      "Pickup Dates": "07-30-2021, 07-30-2021",
+      "AWBs": "7102232, 7103484"
+    }
+  ]
+}

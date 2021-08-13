@@ -1,0 +1,23 @@
+{
+  "name": "upwork_sheetjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlecMasterson/upwork_sheetjs.git"
+  },
+  "author": "Alec Masterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlecMasterson/upwork_sheetjs/issues"
+  },
+  "homepage": "https://github.com/AlecMasterson/upwork_sheetjs#readme",
+  "dependencies": {
+    "exceljs": "^4.2.1",
+    "moment": "^2.29.1"
+  }
+}
