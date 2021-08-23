@@ -1,32 +1,32 @@
-import Columns from "../types/Columns";
+import ExcelColumns from "../types/ExcelColumns";
 
 const COLUMNS_INVOICE = [
-    Columns.Account, Columns.Batch_Number, Columns.Account_Number,
-    Columns.Weight_Charge, Columns.DT, Columns.Returns_Other, Columns.Total,
-    Columns.Paid_Credit_Card, Columns.Invoice_Due, Columns.Invoice_Sent,
-    Columns.AWB, Columns.Pickup_Dates
+    ExcelColumns.Account, ExcelColumns.Batch_Number, ExcelColumns.Account_Number,
+    ExcelColumns.Weight_Charge, ExcelColumns.DT, ExcelColumns.Returns_Other, ExcelColumns.Total,
+    ExcelColumns.Paid_Credit_Card, ExcelColumns.Invoice_Due, ExcelColumns.Invoice_Sent,
+    ExcelColumns.AWB, ExcelColumns.Pickup_Dates
 ];
 
 const COLUMNS_PARTNER_STONE_EDGE_SUMMARY = [
-    Columns.Parent_Customer_Name, Columns.Customer_Name,
-    Columns.USPS_Priority, Columns.USPS_First_Class, Columns.International, Columns.Refund, Columns.APV,
-    Columns.CP, Columns.Customer_Cost, Columns.Merchant_Fee, Columns.Rebate
+    ExcelColumns.Parent_Customer_Name, ExcelColumns.Customer_Name,
+    ExcelColumns.USPS_Priority, ExcelColumns.USPS_First_Class, ExcelColumns.International, ExcelColumns.Refund, ExcelColumns.APV,
+    ExcelColumns.CP, ExcelColumns.Customer_Cost, ExcelColumns.Merchant_Fee, ExcelColumns.Rebate
 ];
 
 const COLUMNS_RETURNS = [
-    Columns.Batch_Number, Columns.Description, Columns.Amount
+    ExcelColumns.Batch_Number, ExcelColumns.Description, ExcelColumns.Amount
 ];
 
 const COLUMNS_SUMMARY = [
-    Columns.Top_Level_Parent, Columns.Parent_Customer_Name, Columns.Customer_Name,
-    Columns.USPS_Priority, Columns.USPS_First_Class, Columns.International, Columns.Refund, Columns.APV,
-    Columns.CP, Columns.Customer_Cost, Columns.NSA_Cost, Columns.Gross_Margin, Columns.Merchant_Fee,
-    Columns.Rebate, Columns.Royalty, Columns.EHUB_Tech_Fee, Columns.RevShare, Columns.Net_Margin,
-    Columns.EHUB_Commission, Columns.Postage_Force_Commission, Columns.PF_Ventures_Commission,
-    Columns.Hunter_Commission, Columns.Mike_Commission, Columns.Jordan_Commission,
-    Columns.Hunter_Comment_Sold_Commission, Columns.Mike_Comment_Sold_Commission,
-    Columns.COR_Commission, Columns.EHUB_Commission_From_PF_Ventures, Columns.Other_Commission,
-    Columns.EHUB_Remainder, Columns.Postage_Force_Remainder, Columns.PF_Ventures_Remainder, Columns.Other_Remainder
+    ExcelColumns.Top_Level_Parent, ExcelColumns.Parent_Customer_Name, ExcelColumns.Customer_Name,
+    ExcelColumns.USPS_Priority, ExcelColumns.USPS_First_Class, ExcelColumns.International, ExcelColumns.Refund, ExcelColumns.APV,
+    ExcelColumns.CP, ExcelColumns.Customer_Cost, ExcelColumns.NSA_Cost, ExcelColumns.Gross_Margin, ExcelColumns.Merchant_Fee,
+    ExcelColumns.Rebate, ExcelColumns.Royalty, ExcelColumns.EHUB_Tech_Fee, ExcelColumns.RevShare, ExcelColumns.Net_Margin,
+    ExcelColumns.EHUB_Commission, ExcelColumns.Postage_Force_Commission, ExcelColumns.PF_Ventures_Commission,
+    ExcelColumns.Hunter_Commission, ExcelColumns.Mike_Commission, ExcelColumns.Jordan_Commission,
+    ExcelColumns.Hunter_Comment_Sold_Commission, ExcelColumns.Mike_Comment_Sold_Commission,
+    ExcelColumns.COR_Commission, ExcelColumns.EHUB_Commission_From_PF_Ventures, ExcelColumns.Other_Commission,
+    ExcelColumns.EHUB_Remainder, ExcelColumns.Postage_Force_Remainder, ExcelColumns.PF_Ventures_Remainder, ExcelColumns.Other_Remainder
 ];
 
 export {

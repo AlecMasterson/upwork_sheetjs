@@ -1,5 +1,11 @@
 # Upwork ExcelJS Automation
 
+## Installation
+
+```
+npm install
+```
+
 ## Processing Invoices
 
 Running this script requires the location of the input data file being processed as the last argument. Below, you can see two examples depending on where the input data file is located.

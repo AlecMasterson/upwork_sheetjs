@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "process_invoices": "npx ts-node process_invoices.ts",
-    "process_summary": "npx ts-node process_summary.ts"
+    "process_invoices": "ts-node process_invoices.ts",
+    "process_summary": "ts-node process_summary.ts"
   },
   "repository": {
     "type": "git",

@@ -1,8 +1,29 @@
 import { Style } from "exceljs";
-import { FORMAT_CURRENCY, FORMAT_NUMBER, MIN_COLUMN_WIDTH_DATE } from "../configs/StyleConfig";
 
+/* =================================================
+====================================================
+CONFIGURATION
+====================================================
+================================================= */
+
+const FORMAT_CURRENCY: string = '"$"#,##0.00;[Red]\-"$"#,##0.00';
+const FORMAT_NUMBER: string = "#,##0;[Red]\-#,##0";
+
+export const MIN_COLUMN_WIDTH: number = 10;
+const MIN_COLUMN_WIDTH_DATE: number = 15;
+
+/* =================================================
+====================================================
+CUSTOM TYPES
+====================================================
+================================================= */
+
+// This is a custom type from the "exceljs" library that couldn't be imported.
+// Needed to recreate it here for proper typing of the columns.
 export type TotalsRowFunctionType = "none" | "average" | "countNums" | "count" | "max" | "min" | "stdDev" | "var" | "sum" | "custom";
 
+// Each column that is exported into the final output file must follow this format.
+// Only the first column of a Worksheet can have a "totalsRowLabel" definition.
 export interface ExcelColumn {
     f?: (object | string);
     filterButton?: boolean;
@@ -13,6 +34,12 @@ export interface ExcelColumn {
     totalsRowLabel?: string;
     width?: number;
 };
+
+/* =================================================
+====================================================
+EXCEL COLUMN CONFIGURATIONS
+====================================================
+================================================= */
 
 const ExcelColumns: { [key: string]: ExcelColumn } = {
     Account: { key: "Account", name: "Account", totalsRowLabel: "Total" },
